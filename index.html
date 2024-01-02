@@ -6,6 +6,50 @@
   <title>Kalkulator Segitiga</title>
 </head>
 <body>
+  <header id="navigation-bar">
+    <h3 id="logo">Katik</h3>
+    <nav class="navigation">
+      <a href="#large-segitiga">Luas Segitiga</a>
+      <a href="">Keliling Segitiga</a>
+    </nav>
+  </header>
+
+  <!-- Hitung Luas -->
+  <form id="input-large-section" class="input-large-section">
+    <h2 class="large-segitiga">Luas Segitiga</h2>
+    <img src="https://nidanurzahra.files.wordpress.com/2018/12/segitiga.jpg" alt="">
+    <p>
+      Rumus Luas Segitiga yaitu:
+      <br>      
+    </p>
+    <p class="judul-rumus-luas">L = 1/2 x a x t</p>
+    <p>
+      Dimana:
+      <br>
+      L = Luas
+      <br>
+      a = Panjang Alas
+      <br>
+      t = Tinggi
+    </p>
+    <p id="hitung-luas">
+      <h3 class="hitung-luas">Hitung Luas Segitiga</h3>
+    </p>
+    <label for="input-alas" id="label-alas">Panjang Alas</label>
+    <input type="number" id="input-alas" class="katik-input-alas" placeholder="Nilai Alas">
+    <label for="input-tinggi" id="label-tinggi">Tinggi</label>
+    <input type="number" id="input-tinggi" class="katik-input-tinggi" placeholder="Nilai Tinggi">
+    
+    <input type="text" id="rumus-luas"></input>
+    <input type="text" id="masukan-nilai-luas"></input>
+    <input type="text" id="hasil-luas"></input>
+    
+    <div class="buttons-large">
+      <input type="button" class="button" id="btn-hitung-luas" value="Hitung" onclick="luas()">
+      <input type="reset" class="button" id="btn-reset-luas" value="Reset">
+    </div>
+  </form>  
+
   
 </body>
 </html>
