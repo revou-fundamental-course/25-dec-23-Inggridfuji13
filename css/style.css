@@ -78,21 +78,11 @@ label{
   font-weight: bold;
 }
 
-.katik-input-alas{
-  outline: none;
-  border-radius: 10px;
-  padding: 10px;
-  border: 1px solid #000000;
-}
-
-.katik-input-alas:focus{
-  border: 1px solid #ff7575;
-}
-
 #label-tinggi{
   margin-top: 15px;
 }
 
+.katik-input-alas,
 .katik-input-tinggi{
   outline: none;
   border-radius: 10px;
@@ -100,6 +90,7 @@ label{
   border: 1px solid #000000;
 }
 
+.katik-input-alas:focus,
 .katik-input-tinggi:focus{
   border: 1px solid #ff7575;
 }
@@ -173,6 +164,28 @@ label{
   font-size: 20px;
 }
 
+#label-sisi1, #label-sisi2, #label-sisi3{
+  padding-left: 3px;
+}
+
+#label-sisi2, #label-sisi3{
+  padding-top: 10px;
+}
+
+.katik-input-sisi1, 
+.katik-input-sisi2, 
+.katik-input-sisi3{
+  outline: none;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #000000;
+}
+
+.katik-input-sisi1:focus, 
+.katik-input-sisi2:focus, 
+.katik-input-sisi3:focus{
+  border: 1px solid #ff7575;
+}
 
 
 
