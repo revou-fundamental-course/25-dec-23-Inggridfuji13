@@ -82,7 +82,7 @@ p{
 
 
 #rumus-luas, #masukan-nilai-luas, #hasil-luas{
-  margin: 0;
+  margin-left: 12px;
   padding: 4px;
   width: 95%;
   border: none;
@@ -234,7 +234,7 @@ label{
 }
 
 #rumus-kel, #masukan-nilai-kel, #hasil-kel{
-  margin: 0;
+  margin-left: 12px;
   border: none;
   padding: 4px;
   width: 95%;
