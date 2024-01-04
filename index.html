@@ -11,14 +11,16 @@
   <header id="navigation-bar">
     <h3 id="logo">KATIK</h3>
     <nav class="navigation">
-      <a href="#large-segitiga">Luas Segitiga</a>
-      <a href="#around-segitiga">Keliling Segitiga</a>
+      <a href="#form_large">Luas Segitiga</a>
+      <a href="#form_around">Keliling Segitiga</a>
     </nav>
   </header>
 
+  <p class="welcome">Welcome to Kalkulator Matematika Segitiga</p>
+  <p class="app">Sebuah web apps untuk menghitung luas dan keliling segitiga</p>
   <!-- Hitung Luas -->
-  <form name="form_large" class="input-large-section">
-    <h2 id="large-segitiga" class="large-segitiga">Luas Segitiga</h2>
+  <form name="form_large" id="form_large" class="input-large-section">
+    <h3 id="large-segitiga" class="large-segitiga" >Luas Segitiga</h3>
     <img src="https://nidanurzahra.files.wordpress.com/2018/12/segitiga.jpg" alt="" id="img-luas">
     <p>
       Rumus Luas Segitiga yaitu: <br>      
@@ -38,9 +40,9 @@
     <label for="input-tinggi" id="label-tinggi">Tinggi</label>
     <input type="number" name="input_tinggi" class="katik-input-tinggi" placeholder="Masukan nilai Tinggi">
     
-    <input type="text" id="rumus-luas" name="rumus_luas"></input>
-    <input type="text" name="masukan_nilai_luas" id="masukan-nilai-luas"></input>
-    <input type="text" name="hasil_luas" id="hasil-luas"></input>
+    <input type="text" id="rumus-luas" name="rumus_luas" readonly></input>
+    <input type="text" name="masukan_nilai_luas" id="masukan-nilai-luas" readonly></input>
+    <input type="text" name="hasil_luas" id="hasil-luas" readonly></input>
     
     <div class="buttons-large">
       <input type="button" class="button" id="btn-hitung-luas" value="Hitung" onclick="luas()">
@@ -49,8 +51,8 @@
   </form>  
 
   <!-- Hitung keliling -->
-  <form name="form_around" class="input-around-section">
-    <h2 id="around-segitiga" class="around-segitiga">Keliling Segitiga</h2>
+  <form name="form_around" id="form_around" class="input-around-section">
+    <h3 id="around-segitiga" class="around-segitiga">Keliling Segitiga</h3>
     <img src="https://nidanurzahra.files.wordpress.com/2018/12/segitiga.jpg" alt="" id="img-luas">
     <p>
       Rumus Keliling Segitiga yaitu: <br>      
@@ -73,9 +75,9 @@
     <label for="input-sisi3" id="label-sisi3">Sisi C</label>
     <input type="number" name="input_sisi3" class="katik-input-sisi3" placeholder="Masukan nilai Sisi C">
     
-    <input type="text" id="rumus-kel" name="rumus_kel"></input>
-    <input type="text" name="masukan_nilai_kel" id="masukan-nilai-kel"></input>
-    <input type="text" name="hasil_kel" id="hasil-kel"></input>
+    <input type="text" id="rumus-kel" name="rumus_kel" readonly></input>
+    <input type="text" name="masukan_nilai_kel" id="masukan-nilai-kel" readonly></input>
+    <input type="text" name="hasil_kel" id="hasil-kel" readonly></input>
     
 
     <div class="buttons-around">

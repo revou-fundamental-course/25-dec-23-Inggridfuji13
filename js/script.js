@@ -20,5 +20,5 @@ function keliling(){
   document.form_around.masukan_nilai_kel.value = "K = " + nilai_s1 + " x " + nilai_s2 + " x " + nilai_s3;
   
   var hasil_kel = (nilai_s1 * nilai_s2 * nilai_s3);
-  document.form_around.hasil_kel.value = hasil_kel;
+  document.form_around.hasil_kel.value = "K = " + hasil_kel;
 }
